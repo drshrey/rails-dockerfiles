@@ -1,4 +1,4 @@
-FROM seanmccann/rails-dockerfiles:latest
+FROM seanmccann/rails-dockerfiles:alpine3.11
 
 RUN apk --update-cache add --virtual build-dependencies mariadb-dev
 RUN apk add --update mysql-client
