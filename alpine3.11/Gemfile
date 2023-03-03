@@ -7,4 +7,4 @@ ruby '2.6.5'
 gem 'puma', '4.3.0'
 gem 'sass-rails', '5.1.0'
 gem 'webpacker', '4.2.2'
-
+gem 'nokogiri', '1.14.2'
